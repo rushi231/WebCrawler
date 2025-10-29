@@ -40,12 +40,19 @@ cd backend
 npm install
 ```
 
-3. Create a `.env` file in the backend directory:
-```
-JWT_SECRET=your_secret_key_here
-PORT=5000
+3. Create a `.env` file in the backend directory. Below is an example of what you should have. 
 ```
 
+PORT=5000
+NODE_ENV=development
+FRONTEND_URL=http://localhost:5173
+MAX_PAGES=50
+CRAWL_TIMEOUT=30000
+ADMIN_PASSWORD=
+MANAGER_PASSWORD=
+JWT_SECRET=
+
+```
 4. Start the backend server:
 ```bash
 node server.js
@@ -91,10 +98,9 @@ All regular user features, plus:
 - **Delete Users**: Remove users
 
 ## Future Improvements
-
+- [ ] Password reset for Users
 - [ ] JSON file storage to MongoDB or PostgreSQL
 - [ ] Implement rate limiting to prevent abuse
-- [ ] Add user profiles and crawl history
 - [ ] Store crawl results in database for later retrieval
 - [ ] Implement token refresh mechanism
-- [ ] Password reset functionality
+
