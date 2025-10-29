@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1761765326696",
+    "username": "12345",
+    "password": "$2b$10$LJoFb2vLzJU3Gk3DWXVPV.vNZwFARCkZ37HHaI61RfTvYreKLa/4a",
+    "role": "Admin",
+    "createdAt": "2025-10-29T19:15:26.696Z",
+    "blocked": false
+  },
+  {
+    "id": "1761765439905",
+    "username": "111",
+    "password": "$2b$10$Oc1/1etE99ydmkRS5pVAu.CPYKr94VKxMw5VXN9ACGQfpzj0z37n2",
+    "role": "User",
+    "createdAt": "2025-10-29T19:17:19.905Z",
+    "blocked": false
+  }
+]

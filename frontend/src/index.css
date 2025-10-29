@@ -1,0 +1,486 @@
+
+
+/*  grow up to full viewport   */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  margin: 0;
+  min-height: 100 vh;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;   */
+  background: white;
+}
+
+.signinpage {
+    display: flex;
+    min-height: 100vh;
+    background: white;
+
+}
+
+.signin-left{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  background:#f5f6fa;
+  padding: 30px;
+}
+.signin-page {
+  background: white;
+  display: flex;
+  flex:1;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 10px;
+  
+}
+
+.signin-box  {
+  width: 100%;
+  max-width: 400px;
+}
+.signin-h2  {
+  font-size: 2.1em;
+  margin-bottom: 30px;
+  color:#333;
+}
+.signuppage {
+  display: flex;
+  min-height: 100vh;
+  background: white;
+}
+
+.signup-box {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 380px;
+}
+
+
+.signup-box label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+  font-weight: 500;
+  font-size: 0.95em;
+}
+
+.signup-box h2 {
+  color: #333;
+  margin-bottom: 25px;
+  font-size: 1.6em;
+  text-align: center;
+}
+
+.signup-box .form-section {
+  margin-bottom: 15px;
+}
+.signup-box input,
+.signup-box select {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  background: white;
+
+}
+
+
+
+
+
+.signup-button{
+  width: 100%;
+  padding: 10px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 1.7em;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+.signup-button:hover {
+  background: #5568d3;
+
+}
+
+.user-cont h1 {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.user-cont .userinfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  border-radius:1px solid #e0e0e0 ;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.users-table thead th {
+  background: #667eea;
+  color: white;
+  padding: 12px;
+  border-radius: 5px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Better button spacing in Actions column */
+.users-table td button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-right: 8px;
+  font-size: 0.9em;
+}
+
+
+.blockbutton {
+  background: #ff9800;
+  color: white;
+}
+
+.blockbutton:hover {
+  background: #f57c00;
+  transform: translateY(-1px); 
+}
+
+.update-user-role {
+  background: #dc3545;
+  color: white;
+}
+
+.update-user-role:hover {
+  background: #c82333;
+ 
+}
+
+.users-table select {
+  padding: 8px 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 5px;
+  font-size: 0.9em;
+  font-weight: 500;
+  cursor: pointer;
+ 
+  background: white;
+}
+
+.users-table select:hover {
+  border-color: #667eea;
+}
+
+.users-table select:focus {
+  outline: none;
+  border-color: #667eea;
+ 
+}
+
+/* for the table row  */
+.users-table tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.users-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.users-table tbody tr:hover {
+  background: #f8f9fa;
+}
+
+/* Blocked status */
+.users-table td {
+  padding: 18px 15px;
+  color: #333;
+  font-size: 0.95em;
+  vertical-align: middle;
+}
+
+
+
+.form-section{
+  margin-bottom: 20px;
+}
+
+.form-section label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 0.95em;
+  font-weight: 550;
+}
+
+
+.form-section input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid#e0e0e0;
+  border-radius: 5px;
+  font-size: 1em;
+  background: white;
+}
+
+
+.signin-button {
+  width: 100%;
+  padding: 12px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  font-weight: 520;
+  cursor: pointer;
+  margin-top: 20px;
+
+}
+
+.signin-button:hover {
+  background: #5568d3;
+  
+}
+
+.signin-button:disabled {
+  opacity: 0.5;
+  transform: none;
+  cursor: not-allowed;
+}
+
+
+.switchpage {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.switchpage p {
+  font-size: 1 em;
+  color: #666;
+}
+
+.switchpage button {
+  background: none;
+  border: none;
+  color: #667eea;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 600;
+  transition: color 0.22s;
+}
+
+.switchpage button:hover {
+  color: #5568d3;
+ 
+}
+
+.submit-btn{
+  background: #667eea;
+  padding:  12px 12px;
+  border: none;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+
+}
+
+.submit-btn:hover{
+  background: #5568d3
+}
+
+.submit-btn:disabled{
+  cursor: not-allowed;
+  opacity: 0.4;
+
+}
+
+.no-results{
+  text-align: center;
+  font-size: 1.1em;
+  padding: 30px 10px;
+  color: #999999;
+
+}
+
+.errormessage{
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border-left: 4px solid #c33;
+  background-color: #fee;
+  font-size: 0.95em;
+  color:#d12e2e
+
+}
+
+.crawling {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+  border: 1px solid #e0e0e0;
+}
+
+.header{
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.header h1,
+.header h2 {
+  color: black;
+  margin-bottom: 12px;
+  font-size: 1.4em;
+}
+
+.results-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  gap: 20px;
+}
+
+.results-header-top h1 {
+  margin: 0;
+  flex: 1;
+}
+
+.delete-btn{
+  border-radius: 10px;
+  padding: 7px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+  background: #667eea;
+  color: white;
+  white-space: nowrap;
+}
+
+
+.delete-btn:hover {
+  background: #4CAF50;
+}
+
+.summary{
+  display: flex;
+  gap: 20px;
+  color: #666;
+  font-size: 1em;
+}
+
+/* for the tables */
+.table {
+  margin-top: 20px;
+}
+
+.table h2{
+  color: black;
+  margin-bottom: 15px;
+  font-size: 1em;
+}
+.url-lists{
+  list-style: none;
+}
+.url-lists li{
+  padding: 11px 14px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background:  #f8f9fa;
+  
+  border: 1px solid #e0e0e0;
+}
+
+.url-lists a {
+  color: #667eea;
+  text-decoration: none;
+  word-break: break-all;
+  font-size: 0.95em;
+}
+
+.url-lists a:hover {
+  text-decoration: underline;
+}
+
+.signin-left h1 {
+  font-size: 4em;
+  font-weight: 700;
+  color: #667eea;
+  text-align: center;;
+  }
+
+/* mobile */
+
+@media (max-width: 700px){
+  .userinfo{
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .logoutbutton{
+    width: 100%;
+  }
+
+  .delete-btn{
+    width: 100%;
+  }
+
+  header h1{
+    font-size: 2em;
+  }
+
+  .results-header-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .results-header-top h1 {
+    font-size: 1.5em;
+  }
+
+  .summary{
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .signin-left h1 {
+    font-size: 2.5em;
+  }
+  .signin-box {
+    padding: 30px 20px;
+  }
+
+  .signup-box {
+    padding: 30px 20px;
+  }
+}

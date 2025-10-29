@@ -1,0 +1,134 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+header h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #666;
+
+  font-size: 1.1em;
+}
+
+main{
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.userinfo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #f0f2f5;
+  border-radius: 8px;
+  margin-bottom: 30px;
+
+  border-left: 4px solid #667eea;
+}
+
+
+
+.userinfo span{
+  color: #333;
+  font-weight: 600;
+  font-size: 1.05em;
+
+
+}
+
+.logoutbutton{
+  border-radius: 10px;
+  padding: 7px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+  background: #667eea;
+  color: white;
+}
+
+.logoutbutton:hover {
+  background: #4CAF50; 
+
+
+  
+}
+
+.crawler-form-card{
+  background: #f9f9f9;
+  padding:25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+ border: 1px solid #e0e0e0;
+}
+
+.crawler-form-card h1,
+.crawler-form-card h2 {
+  color: #333333;
+  margin-bottom: 20px;
+  font-size: 1.6em;
+}
+
+.crawler-form-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-admin{
+  border-radius: 10px;
+  padding: 7px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+  background: #667eea;
+  color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.button-admin:hover {
+  background: #4CAF50; 
+}
+
+
+.nav-button{
+  border-radius: 10px;
+  padding: 7px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+  background: #667eea;
+  color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.nav-button:hover {
+  background: #4CAF50; 
+}
